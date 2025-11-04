@@ -51,7 +51,7 @@ function checkAns(idx) {
             setTimeout(levelUp, 1000);
         }       
     } else {
-        h2.innerHTML = `Game Over! your score was <b>${level}</b> Press any key to start.`;
+        h2.innerHTML = `Game Over! your score was <b>${level}</b> Press the start button to start the game.`;
         document.querySelector("body").style.backgroundColor = "red";
         setTimeout(function (){
             document.querySelector("body").style.backgroundColor = "white";
@@ -111,6 +111,7 @@ if (greenPad) {
         }
     });
 }
+
 
 
 
