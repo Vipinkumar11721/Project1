@@ -87,4 +87,35 @@ function reset() {
 }
 
 
+// let started = false;
+// let level= 0;
+let gamePattern = [];
+let userClickedPattern = [];
+const buttonColors = ["red", "yellow", "green", "purple"];
+
+document.getElementById("start-btn").addEventListener("click", function() {
+    if (!started) {
+        // Start the game using the existing levelUp() function
+        levelUp();
+        started = true;
+    }
+});
+
+// Allow the green pad itself to act as a Start button when the game hasn't started.
+const greenPad = document.getElementById("green");
+if (greenPad) {
+    greenPad.addEventListener("click", function () {
+        if (!started) {
+            levelUp();
+            started = true;
+        }
+    });
+}
+
+
+
+
+
+
+
 
