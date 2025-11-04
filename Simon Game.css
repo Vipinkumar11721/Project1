@@ -39,3 +39,24 @@ body {
 .userflash {
     background-color: green;
 }
+
+/* Start button styling */
+#start-btn {
+    background-color: #28a745; /* green */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    margin-top: 1rem;
+}
+
+#start-btn:hover {
+    background-color: #218838;
+}
+
+#start-btn:active {
+    transform: translateY(1px);
+}
