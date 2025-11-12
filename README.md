@@ -1,2 +1,2 @@
 # Project1
-This is a Project
+This is a Simon Game Project. This game is maked by using HTML, CSS, JAVA SCRIPT.
